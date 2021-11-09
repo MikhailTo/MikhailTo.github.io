@@ -1,11 +1,11 @@
 .header {
     display: flex;
     flex-direction: column;
-    column-gap: 10px;
+    column-gap: 20px;
     justify-content: center;
 
-    width: auto;
-    height: 30px;
+    width: 100%;
+    height: 50px;
 
     background-color: rgb(82, 82, 82);
     
