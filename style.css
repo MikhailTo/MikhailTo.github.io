@@ -1,11 +1,14 @@
 .header {
     display: flex;
-    width: auto;
-    height: 20px;
-    background-color: rgb(82, 82, 82);
     flex-direction: column;
     column-gap: 10px;
+    justify-content: center;
 
+    width: auto;
+    height: 20px;
+
+    background-color: rgb(82, 82, 82);
+    
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     font-size: 8px;
