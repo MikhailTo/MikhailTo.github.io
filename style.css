@@ -1,5 +1,12 @@
 .header {
     display: flex;
+    width: auto;
+    height: 20px;
+    background-color: rgb(82, 82, 82);
     flex-direction: column;
-    row-gap: 10px;
+    column-gap: 10px;
+
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8px;
 }
