@@ -24,6 +24,10 @@ body {
 
 .nav {
     height: 100%;
+
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
 }
 .nav__list {
     display: flex;
