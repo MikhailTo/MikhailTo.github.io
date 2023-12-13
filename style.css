@@ -30,3 +30,36 @@
     display: none;
     overflow: hidden;
 }
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+a:hover {
+    color: #5a5a5a;
+    transition: .45s ease all;
+}
+
+/* Стили для смартфона */
+@media (max-width: 767px) {
+    .accordion {
+        height: 100px;
+        font-size: 40px;
+    }
+
+    .accordion > a {
+        font-size: 40px;
+    }
+    
+}
+
+/* Стили для планшета */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* Стили для компьютера */
+@media (min-width: 1024px) {
+
+}
